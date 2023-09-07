@@ -1,0 +1,76 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>alumnos</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <!-- Tarjeta 1 -->
+  <ion-item>
+    <ion-button expand="full" (click)="volver()">Cerrar Sesion</ion-button>
+  </ion-item>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Programación</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Hora de Entrada: 08:00 AM<br>
+      Hora de Salida: 10:00 AM<br>
+      Sección de Ramo: PGE2564<br>
+      Número de Sala: 101
+    </ion-card-content>
+    <ion-item>
+      <ion-button expand="full" (click)="escanearQR()">Escanear código QR</ion-button>
+    </ion-item>
+  </ion-card>
+
+
+  <!-- Tarjeta 2 -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Arquitectura</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Hora de Entrada: 10:30 AM<br>
+      Hora de Salida: 12:30 PM<br>
+      Sección de Ramo: ARQ1234<br>
+      Número de Sala: 102
+    </ion-card-content>
+    <ion-item>
+      <ion-button expand="full" (click)="escanearQR()">Escanear código QR</ion-button>
+    </ion-item>
+  </ion-card>
+
+  <!-- Tarjeta 3 -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Ética</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Hora de Entrada: 01:00 PM<br>
+      Hora de Salida: 03:00 PM<br>
+      Sección de Ramo: ETI7890<br>
+      Número de Sala: 103
+    </ion-card-content>
+    <ion-item>
+      <ion-button expand="full" (click)="escanearQR()">Escanear código QR</ion-button>
+    </ion-item>
+  </ion-card>
+
+  <!-- Tarjeta 4 -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Calidad</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Hora de Entrada: 03:30 PM<br>
+      Hora de Salida: 05:30 PM<br>
+      Sección de Ramo: CAL5678<br>
+      Número de Sala: 104
+    </ion-card-content>
+    <ion-item>
+      <ion-button expand="full" (click)="escanearQR()">Escanear código QR</ion-button>
+    </ion-item>
+  </ion-card>
+</ion-content>
